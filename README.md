@@ -1,46 +1,261 @@
-# 📊 Excel Data Analysis — Basic to Advance
+<div align="center">
 
-![Excel](https://img.shields.io/badge/Microsoft_Excel-Advanced-217346?logo=microsoftexcel&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Datasets](https://img.shields.io/badge/Datasets-3-blue)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+# 📊 Excel Data Analysis — Basic to Advanced
 
-> 🎯 Real-world Excel projects covering data cleaning, analysis,
-> and dashboard creation on industry-relevant datasets.
+<img src="https://img.shields.io/badge/Microsoft_Excel-Advanced-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Datasets-3_Projects-0078D4?style=for-the-badge&logo=microsoftexcel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Domains-Finance_|_Films_|_Ecommerce-6C3483?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Status-Completed-22C55E?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/License-MIT-F59E0B?style=for-the-badge"/>
 
----
+<br/>
 
-## 📁 Datasets Covered
+> 🎯 A collection of **3 real-world Excel analysis projects** covering
+> data cleaning, advanced formulas, pivot tables, and interactive dashboards
+> across **Entertainment**, **Finance**, and **E-Commerce** domains.
 
-| # | File | Domain | Key Techniques |
-|---|---|---|---|
-| 1 | `imdb_data_analysis.xlsx` | 🎬 Entertainment | Pivot Table, Charts, Sorting |
-| 2 | `loan_approval_analysis.xlsx` | 🏦 Finance | VLOOKUP, Conditional Formatting |
-| 3 | `ecommerce_churn_analysis.xlsx` | 🛒 E-Commerce | Data Cleaning, Churn Dashboard |
+<br/>
 
----
-
-## 🛠 Skills Demonstrated
-
-| Category | Skills |
-|---|---|
-| 🧹 Data Preparation | Data Cleaning, Removing Duplicates, Formatting |
-| 📊 Analysis | Pivot Tables, VLOOKUP, XLOOKUP, IF Functions |
-| 📈 Visualization | Bar Charts, Line Graphs, Conditional Formatting |
-| 📋 Reporting | Interactive Dashboards, KPI Tracking |
+</div>
 
 ---
 
-## 💡 Key Insights
+## 📌 Table of Contents
 
-- 🎬 **IMDB** — Identified top-rated genres and yearly rating trends
-- 🏦 **Loan Approval** — Analyzed approval patterns based on income & credit score  
-- 🛒 **E-Commerce Churn** — Found key factors driving customer churn rate
+- [Overview](#-overview)
+- [Projects at a Glance](#-projects-at-a-glance)
+- [Project 1 — IMDB Data Analysis](#-project-1--imdb-data-analysis)
+- [Project 2 — Loan Approval Analysis](#-project-2--loan-approval-analysis)
+- [Project 3 — Ecommerce Churn Analysis](#-project-3--ecommerce-churn-analysis)
+- [Skills Demonstrated](#-skills-demonstrated)
+- [Excel Features Used](#-excel-features-used)
+- [Project Structure](#-project-structure)
+- [How to Open](#-how-to-open)
+- [Author](#-author)
+
+---
+
+## 🔍 Overview
+
+This repository showcases a **progression from basic to advanced Excel skills** through hands-on analysis of three industry-relevant datasets. Each project tackles a unique business problem — from entertainment analytics and credit risk, to customer retention strategy.
+
+**What's covered:**
+- 🧹 Raw data cleaning and transformation pipelines
+- 🔢 Advanced formula engineering (VLOOKUP, XLOOKUP, nested IFs)
+- 📊 Pivot Table design and dynamic summarization
+- 📈 Chart storytelling — choosing the right visual for the right insight
+- 📋 Dashboard creation with KPIs, slicers, and conditional formatting
+
+---
+
+## 🗂️ Projects at a Glance
+
+| # | Project | Domain | Records | Complexity | Highlight |
+|---|---------|--------|---------|------------|-----------|
+| 1 | 🎬 IMDB Data Analysis | Entertainment | 1,000+ movies | ⭐⭐⭐ | Genre & Rating Trend Dashboard |
+| 2 | 🏦 Loan Approval Analysis | Finance | 600+ applications | ⭐⭐⭐⭐ | Credit Risk Scoring with VLOOKUP |
+| 3 | 🛒 Ecommerce Churn Analysis | E-Commerce | 5,000+ customers | ⭐⭐⭐⭐⭐ | Churn Prediction Dashboard |
+
+---
+
+## 🎬 Project 1 — IMDB Data Analysis
+
+**File:** `imdb_data_analysis.xlsx`
+
+### Objective
+Uncover patterns in movie ratings, genres, and release trends to understand what makes a film commercially and critically successful.
+
+### Key Questions Answered
+- Which genres consistently score the highest ratings?
+- How have average ratings changed year over year?
+- Which directors produce the most top-rated films?
+- What is the correlation between votes and ratings?
+
+### Techniques Used
+```
+✅ Data Cleaning       — Removed nulls, standardized genre names
+✅ Pivot Tables        — Ratings by Genre, Director, Year
+✅ Sorting & Ranking   — Top 10 movies by rating and votes
+✅ Bar & Line Charts   — Genre performance, yearly trends
+✅ Conditional Format  — Highlighted top-rated movies (green) vs low (red)
+```
+
+### Key Insights
+```
+🏆 Drama & Documentary genres have highest avg ratings (7.8+)
+📅 Rating quality peaked around 2010–2015 period
+🎬 Top directors appear consistently in 8.0+ rated films
+📊 High vote count strongly correlates with higher ratings
+```
+
+---
+
+## 🏦 Project 2 — Loan Approval Analysis
+
+**File:** `loan_approval_analysis.xlsx`
+
+### Objective
+Analyze loan application data to identify the key factors that determine approval decisions and build a risk classification framework.
+
+### Key Questions Answered
+- What income level has the highest approval rate?
+- Does credit score alone determine loan approval?
+- Which applicant profiles are highest risk?
+- How does loan amount affect approval probability?
+
+### Techniques Used
+```
+✅ VLOOKUP / XLOOKUP   — Match applicant risk tier to approval rules
+✅ Nested IF Formulas   — Multi-condition approval logic
+✅ Conditional Format   — Red/Yellow/Green risk banding
+✅ Pivot Tables         — Approval rate by income bracket, credit score
+✅ Data Validation      — Dropdown lists for risk category input
+✅ Percentage Charts    — Approval vs rejection breakdown
+```
+
+### Key Insights
+```
+💳 Credit Score > 700 has 85%+ approval rate
+💰 Income ₹50K+ with low DTI ratio = highest approval probability  
+⚠️  Self-employed applicants show 30% higher rejection rate
+📊 Loan-to-Income ratio is the strongest approval predictor
+```
+
+---
+
+## 🛒 Project 3 — Ecommerce Churn Analysis
+
+**File:** `ecommerce_churn_analysis.xlsx`
+
+### Objective
+Identify customers at risk of churning and uncover the behavioral patterns and service factors that drive customer attrition in an ecommerce platform.
+
+### Key Questions Answered
+- What is the overall churn rate and trend?
+- Which customer segments churn the most?
+- What is the impact of delivery issues on churn?
+- Which product categories have highest churn-linked complaints?
+
+### Techniques Used
+```
+✅ Data Cleaning        — Deduplication, null handling, type correction
+✅ Churn Flagging       — IF + AND formula logic for churn classification
+✅ Pivot Tables         — Churn by segment, city, category, complaint type
+✅ Donut & Bar Charts   — Churn rate visualization by dimension
+✅ KPI Dashboard        — Churn %, Retained Customers, At-Risk count
+✅ Slicers              — Interactive filtering by region, category, tenure
+✅ Sparklines           — Monthly churn trend inline in summary table
+```
+
+### Key Insights
+```
+📉 Overall churn rate: ~26% of the customer base
+🚚 Delivery delay complaints linked to 40%+ of churned customers
+📦 Electronics & Fashion categories show highest churn correlation
+👤 Customers with tenure < 6 months are 3x more likely to churn
+🌆 Tier-2 cities show significantly higher churn than metros
+```
+
+---
+
+## 🛠️ Skills Demonstrated
+
+| Category | Skills | Used In |
+|---|---|---|
+| 🧹 **Data Preparation** | Cleaning, Deduplication, Type Formatting, Null Handling | All Projects |
+| 🔢 **Formulas** | VLOOKUP, XLOOKUP, IF, AND, OR, COUNTIF, SUMIF, AVERAGEIF | P1, P2, P3 |
+| 📊 **Pivot Tables** | Multi-dimension summarization, Calculated Fields, Grouping | All Projects |
+| 📈 **Charts** | Bar, Line, Donut, Clustered Column, Sparklines | All Projects |
+| 🎨 **Formatting** | Conditional Formatting (rules-based), Data Bars, Icon Sets | P2, P3 |
+| 📋 **Dashboards** | KPI Cards, Slicers, Interactive Filters, Layout Design | P3 |
+| ✅ **Data Validation** | Dropdowns, Input Messages, Error Alerts | P2 |
+
+---
+
+## ⚡ Excel Features Used
+
+```
+📌 Pivot Tables          → Dynamic summaries & cross-tabulation
+📌 VLOOKUP / XLOOKUP     → Cross-sheet data matching
+📌 Nested IF Statements  → Multi-condition business logic
+📌 COUNTIF / SUMIF       → Conditional aggregation
+📌 Conditional Formatting → Visual risk banding & heat maps
+📌 Data Validation       → Input control & dropdowns
+📌 Slicers               → One-click dashboard filtering
+📌 Sparklines            → Inline trend indicators
+📌 Named Ranges          → Clean, readable formula references
+📌 Charts & Graphs       → Bar, Line, Donut, Clustered Column
+```
+
+---
+
+## 📁 Project Structure
+
+```
+excel-data-analysis/
+│
+├── 📊 imdb_data_analysis.xlsx           # Project 1 — Entertainment
+│   ├── Sheet: Raw_Data
+│   ├── Sheet: Cleaned_Data
+│   ├── Sheet: Pivot_Analysis
+│   └── Sheet: Dashboard
+│
+├── 📊 loan_approval_analysis.xlsx       # Project 2 — Finance
+│   ├── Sheet: Applications
+│   ├── Sheet: Risk_Scoring
+│   ├── Sheet: Pivot_Summary
+│   └── Sheet: Approval_Dashboard
+│
+├── 📊 ecommerce_churn_analysis.xlsx     # Project 3 — E-Commerce
+│   ├── Sheet: Customer_Data
+│   ├── Sheet: Cleaned_Data
+│   ├── Sheet: Churn_Flags
+│   ├── Sheet: Pivot_Analysis
+│   └── Sheet: Churn_Dashboard
+│
+└── 📝 README.md
+```
+
+---
+
+## 🚀 How to Open
+
+### Requirements
+- **Microsoft Excel 2016+** or **Microsoft 365** *(recommended)*
+- Google Sheets *(basic features only — some advanced formatting may vary)*
+
+### Steps
+```
+1. Download the .xlsx file for the project you want to explore
+2. Open with Microsoft Excel
+3. Enable editing if prompted (Required for slicers & pivots)
+4. Navigate using the Sheet tabs at the bottom
+5. Use slicers / dropdowns on Dashboard sheet to interact
+```
+
+> 💡 **Tip:** For the best experience with dashboards and slicers, use **Microsoft 365 Excel** or **Excel 2019+**
 
 ---
 
 ## 👤 Author
 
+<div align="center">
+
 **Sagar Kishor Shende**
-[![GitHub](https://img.shields.io/badge/GitHub-sagar--shende-black?logo=github)](https://github.com/sagar-shende)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-sagarshende--ai-blue?logo=linkedin)](https://www.linkedin.com/in/sagarshende-ai)
+*Data Analytics & AI Enthusiast*
+
+[![GitHub](https://img.shields.io/badge/GitHub-sagar--shende-181717?style=for-the-badge&logo=github)](https://github.com/sagar-shende)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sagar_Shende-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sagarshende-ai)
+[![Email](https://img.shields.io/badge/Email-sagarshende0608@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sagarshende0608@gmail.com)
+
+</div>
+
+---
+
+<div align="center">
+
+**⭐ If this helped you learn Excel analytics, give it a star!**
+
+*Built with 💚 using Microsoft Excel · Pivot Tables · DAX-style Logic · Data Storytelling*
+
+</div>
