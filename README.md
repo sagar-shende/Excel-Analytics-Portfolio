@@ -6,7 +6,6 @@
 <img src="https://img.shields.io/badge/Datasets-4_Projects-0078D4?style=for-the-badge&logo=microsoftexcel&logoColor=white"/>
 <img src="https://img.shields.io/badge/Domains-Finance_|_Films_|_Ecommerce_|_Maritime-6C3483?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Status-Completed-22C55E?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/License-MIT-F59E0B?style=for-the-badge"/>
 
 <br/>
 
