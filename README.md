@@ -3,16 +3,16 @@
 # 📊 Excel Data Analysis — Basic to Advanced
 
 <img src="https://img.shields.io/badge/Microsoft_Excel-Advanced-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white"/>
-<img src="https://img.shields.io/badge/Datasets-3_Projects-0078D4?style=for-the-badge&logo=microsoftexcel&logoColor=white"/>
-<img src="https://img.shields.io/badge/Domains-Finance_|_Films_|_Ecommerce-6C3483?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Datasets-4_Projects-0078D4?style=for-the-badge&logo=microsoftexcel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Domains-Finance_|_Films_|_Ecommerce_|_Maritime-6C3483?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Status-Completed-22C55E?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/License-MIT-F59E0B?style=for-the-badge"/>
 
 <br/>
 
-> 🎯 A collection of **3 real-world Excel analysis projects** covering
+> 🎯 A collection of **4 real-world Excel analysis projects** covering
 > data cleaning, advanced formulas, pivot tables, and interactive dashboards
-> across **Entertainment**, **Finance**, and **E-Commerce** domains.
+> across **Entertainment**, **Finance**, **E-Commerce**, and **Historical** domains.
 
 <br/>
 
@@ -27,6 +27,7 @@
 - [Project 1 — IMDB Data Analysis](#-project-1--imdb-data-analysis)
 - [Project 2 — Loan Approval Analysis](#-project-2--loan-approval-analysis)
 - [Project 3 — Ecommerce Churn Analysis](#-project-3--ecommerce-churn-analysis)
+- [Project 4 — Titanic Survival Analysis](#-project-4--titanic-survival-analysis)
 - [Skills Demonstrated](#-skills-demonstrated)
 - [Excel Features Used](#-excel-features-used)
 - [Project Structure](#-project-structure)
@@ -37,7 +38,7 @@
 
 ## 🔍 Overview
 
-This repository showcases a **progression from basic to advanced Excel skills** through hands-on analysis of three industry-relevant datasets. Each project tackles a unique business problem — from entertainment analytics and credit risk, to customer retention strategy.
+This repository showcases a **progression from basic to advanced Excel skills** through hands-on analysis of four industry-relevant datasets. Each project tackles a unique business problem — from entertainment analytics and credit risk, to customer retention strategy and historical survival modeling.
 
 **What's covered:**
 - 🧹 Raw data cleaning and transformation pipelines
@@ -55,6 +56,7 @@ This repository showcases a **progression from basic to advanced Excel skills** 
 | 1 | 🎬 IMDB Data Analysis | Entertainment | 1,000+ movies | ⭐⭐⭐ | Genre & Rating Trend Dashboard |
 | 2 | 🏦 Loan Approval Analysis | Finance | 600+ applications | ⭐⭐⭐⭐ | Credit Risk Scoring with VLOOKUP |
 | 3 | 🛒 Ecommerce Churn Analysis | E-Commerce | 5,000+ customers | ⭐⭐⭐⭐⭐ | Churn Prediction Dashboard |
+| 4 | 🚢 Titanic Survival Analysis | Historical / Social | 891 passengers | ⭐⭐⭐⭐ | Survival Rate Dashboard by Class & Gender |
 
 ---
 
@@ -116,7 +118,7 @@ Analyze loan application data to identify the key factors that determine approva
 ### Key Insights
 ```
 💳 Credit Score > 700 has 85%+ approval rate
-💰 Income ₹50K+ with low DTI ratio = highest approval probability  
+💰 Income ₹50K+ with low DTI ratio = highest approval probability
 ⚠️  Self-employed applicants show 30% higher rejection rate
 📊 Loan-to-Income ratio is the strongest approval predictor
 ```
@@ -158,16 +160,53 @@ Identify customers at risk of churning and uncover the behavioral patterns and s
 
 ---
 
+## 🚢 Project 4 — Titanic Survival Analysis
+
+**File:** `titanic_survival_analysis.xlsx`
+
+### Objective
+Analyze the Titanic passenger dataset to identify the key demographic and socioeconomic factors that influenced survival outcomes during the 1912 disaster.
+
+### Key Questions Answered
+- What was the overall survival rate across passengers?
+- Did passenger class (1st / 2nd / 3rd) significantly affect survival?
+- How did gender impact survival probability?
+- Which age groups had the highest and lowest survival rates?
+- Did embarkation port correlate with survival chances?
+
+### Techniques Used
+```
+✅ Data Cleaning        — Handled missing Age, Cabin & Embarked values
+✅ Derived Columns      — Age groups (Child / Adult / Senior) using nested IF
+✅ COUNTIF / AVERAGEIF  — Survival rates by class, gender, age group
+✅ Pivot Tables         — Survival breakdown by Pclass, Sex, Embarked
+✅ Stacked Bar Charts   — Survived vs Not Survived by category
+✅ Conditional Format   — Color-coded survival rate heatmap
+✅ KPI Dashboard        — Total Passengers, Survivors, Survival %, by segment
+```
+
+### Key Insights
+```
+🚢 Overall survival rate: ~38% of 891 passengers
+👩 Female survival rate (~74%) was nearly 3x higher than male (~19%)
+🥇 1st class passengers had 63% survival vs only 24% in 3rd class
+👶 Children (Age < 12) had highest survival rate across all groups
+⚓ Passengers who embarked from Cherbourg had the highest survival rate
+💡 Class + Gender combined = strongest predictor of survival outcome
+```
+
+---
+
 ## 🛠️ Skills Demonstrated
 
 | Category | Skills | Used In |
 |---|---|---|
 | 🧹 **Data Preparation** | Cleaning, Deduplication, Type Formatting, Null Handling | All Projects |
-| 🔢 **Formulas** | VLOOKUP, XLOOKUP, IF, AND, OR, COUNTIF, SUMIF, AVERAGEIF | P1, P2, P3 |
+| 🔢 **Formulas** | VLOOKUP, XLOOKUP, IF, AND, OR, COUNTIF, SUMIF, AVERAGEIF | P1, P2, P3, P4 |
 | 📊 **Pivot Tables** | Multi-dimension summarization, Calculated Fields, Grouping | All Projects |
-| 📈 **Charts** | Bar, Line, Donut, Clustered Column, Sparklines | All Projects |
-| 🎨 **Formatting** | Conditional Formatting (rules-based), Data Bars, Icon Sets | P2, P3 |
-| 📋 **Dashboards** | KPI Cards, Slicers, Interactive Filters, Layout Design | P3 |
+| 📈 **Charts** | Bar, Line, Donut, Stacked Bar, Clustered Column, Sparklines | All Projects |
+| 🎨 **Formatting** | Conditional Formatting (rules-based), Data Bars, Icon Sets | P2, P3, P4 |
+| 📋 **Dashboards** | KPI Cards, Slicers, Interactive Filters, Layout Design | P3, P4 |
 | ✅ **Data Validation** | Dropdowns, Input Messages, Error Alerts | P2 |
 
 ---
@@ -184,7 +223,7 @@ Identify customers at risk of churning and uncover the behavioral patterns and s
 📌 Slicers               → One-click dashboard filtering
 📌 Sparklines            → Inline trend indicators
 📌 Named Ranges          → Clean, readable formula references
-📌 Charts & Graphs       → Bar, Line, Donut, Clustered Column
+📌 Charts & Graphs       → Bar, Line, Donut, Stacked Bar, Clustered Column
 ```
 
 ---
@@ -212,6 +251,12 @@ excel-data-analysis/
 │   ├── Sheet: Churn_Flags
 │   ├── Sheet: Pivot_Analysis
 │   └── Sheet: Churn_Dashboard
+│
+├── 📊 titanic_survival_analysis.xlsx    # Project 4 — Historical
+│   ├── Sheet: Raw_Data
+│   ├── Sheet: Cleaned_Data
+│   ├── Sheet: Pivot_Analysis
+│   └── Sheet: Survival_Dashboard
 │
 └── 📝 README.md
 ```
